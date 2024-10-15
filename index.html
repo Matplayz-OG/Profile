@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatPlayz Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="overlay">
+            <nav>
+                <div class="logo">MatPlayz</div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hero-content">
+                <h1>Hello, I'm <span>MatPlayz</span></h1>
+                <p>Your journey to creative web solutions starts here. Let’s build something amazing together!</p>
+                <a href="#contact" class="hero-btn">Connect with Me</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer with a flair for creating dynamic and interactive experiences. Constantly learning and exploring new technologies, I aim to build projects that inspire and impress.</p>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skill-bar">
+            <p>HTML/CSS</p>
+            <div class="progress"><div class="progress-fill" style="width: 90%;"></div></div>
+        </div>
+        <div class="skill-bar">
+            <p>JavaScript</p>
+            <div class="progress"><div class="progress-fill" style="width: 85%;"></div></div>
+        </div>
+        <div class="skill-bar">
+            <p>React.js</p>
+            <div class="progress"><div class="progress-fill" style="width: 75%;"></div></div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A fully responsive portfolio showcasing my design and development skills.</p>
+        </div>
+        <div class="project">
+            <h3>Interactive Game</h3>
+            <p>A browser-based game demonstrating my expertise in JavaScript.</p>
+        </div>
+    </section>
+
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" id="name" required>
+            <input type="email" placeholder="Your Email" id="email" required>
+            <textarea placeholder="Your Message" id="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 MatPlayz. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
